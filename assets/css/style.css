@@ -42,6 +42,8 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  text-align: center;
+  padding-top: 25px;
 }
 
 .past {
@@ -65,17 +67,24 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
-}
-
-.saveBtn i:hover {
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
 }
 
-.clear{
-border-left: 1px solid black;
-border-radius: 15px;
-padding: 10px;
-background-color: #06aed5;
-color: white;
+.saveBtn:hover {
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+
+.clear {
+  border-left: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.clear:hover {
+  transition: all 0.3s ease-in-out;
+  color: black;
 }

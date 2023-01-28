@@ -31,8 +31,6 @@ for (let i = 0; i < timeblock.length; i++) {
     textArea.text(savedInput);
 }
 
-
-
 //Save Button functionality to save user input
 saveButton.on('click', function(){
     var parentRowId = $(this).parent().prop("id");
