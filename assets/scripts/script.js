@@ -44,5 +44,4 @@ saveButton.on('click', function(){
 clearButton.on('click', function(){
     localStorage.clear();
     textAreaInput.val('');
-    console.log('clear button runnign...');
 });
