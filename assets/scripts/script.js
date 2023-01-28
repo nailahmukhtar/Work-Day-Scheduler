@@ -42,3 +42,9 @@ saveButton.on('click', function(){
 
 });
 
+//Clear Events Button functionality to clear inputs
+clearButton.on('click', function(){
+    localStorage.clear();
+    textAreaInput.val('');
+    console.log('clear button runnign...');
+});
